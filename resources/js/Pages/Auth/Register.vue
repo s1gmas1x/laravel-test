@@ -23,9 +23,10 @@ const submit = () => {
 
 <template>
     <GuestLayout>
+        
         <Head title="Register" />
 
-        <form @submit.prevent="submit">
+        <form class="scale-100 p-6 bg-gray-800/50 bg-gradient-to-bl from-gray-700/50 via-transparent ring-1 ring-inset ring-white/5 rounded-lg shadow-2xl shadow-gray-500/20 dark:shadow-none flex-col motion-safe:hover:scale-[1.01] transition-all duration-250 focus:outline focus:outline-2 focus:outline-red-500" @submit.prevent="submit">
             <div>
                 <InputLabel for="name" value="Name" />
 
@@ -90,7 +91,7 @@ const submit = () => {
             <div class="flex items-center justify-end mt-4">
                 <Link
                     :href="route('login')"
-                    class="underline text-sm text-gray-600 hover:text-gray-900 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                    class="underline text-sm text-gray-600 hover:text-gray-400 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                 >
                     Already registered?
                 </Link>
@@ -100,5 +101,6 @@ const submit = () => {
                 </PrimaryButton>
             </div>
         </form>
+
     </GuestLayout>
 </template>

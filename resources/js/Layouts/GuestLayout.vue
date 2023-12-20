@@ -4,7 +4,7 @@ import { Link } from '@inertiajs/vue3';
 </script>
 
 <template>
-    <div class="relative sm:flex sm:justify-center sm:items-center flex-col min-h-screen bg-center bg-dots-lighter bg-gray-900 selection:bg-red-500 selection:text-white">
+    <div class="relative flex justify-center items-center flex-col min-h-screen bg-center bg-dots-lighter bg-gray-900 selection:bg-red-500 selection:text-white">
         <div class="flex justify-center pb-12">
             <Link href="/">
                 <ApplicationLogo class="w-20 h-20 fill-current text-red-600" />
@@ -12,7 +12,7 @@ import { Link } from '@inertiajs/vue3';
         </div>
 
         <div
-            class="font-semibold focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500"
+            class="font-semibold focus:outline items-center focus:outline-2 focus:rounded-sm focus:outline-red-500"
         >
             <slot />
         </div>

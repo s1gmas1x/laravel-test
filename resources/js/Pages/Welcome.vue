@@ -211,7 +211,7 @@ defineProps({
                     >
                         <div>
                             <div
-                                class="h-16 w-16 bg-red-50 dark:bg-red-800/20 flex items-center justify-center rounded-full"
+                                class="h-16 w-16 bg-red-800/20 flex items-center justify-center rounded-full"
                             >
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -291,7 +291,7 @@ defineProps({
             </div>
 
             <div class="flex justify-center mt-16 px-6 sm:items-center sm:justify-between">
-                <div class="text-center text-sm text-gray-500 dark:text-gray-400 sm:text-left">
+                <div class="text-center text-sm text-gray-400 sm:text-left">
                     <div class="flex items-center gap-4">
                         <a
                             href="https://github.com/sponsors/taylorotwell"
@@ -302,7 +302,7 @@ defineProps({
                                 fill="none"
                                 viewBox="0 0 24 24"
                                 stroke-width="1.5"
-                                class="-mt-px mr-1 w-5 h-5 stroke-gray-600 group-hover:stroke-gray-600 dark:group-hover:stroke-gray-400"
+                                class="-mt-px mr-1 w-5 h-5 stroke-gray-600 group-hover:stroke-gray-400"
                             >
                                 <path
                                     stroke-linecap="round"

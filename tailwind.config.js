@@ -14,6 +14,17 @@ module.exports = {
             fontFamily: {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
             },
+            animation: {
+                'spin-slow': 'spin 100s linear infinite',
+                'reverse': 'spin 50s linear infinate'
+              },
+
+              keyframes: {
+                reverse: {
+                  from: { transform: 'rotate(360deg)' },
+                  to: { transform: 'rotate(0deg)' },
+                }
+              },
         },
     },
 

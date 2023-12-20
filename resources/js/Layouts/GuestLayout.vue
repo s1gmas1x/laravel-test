@@ -4,10 +4,10 @@ import { Link } from '@inertiajs/vue3';
 </script>
 
 <template>
-    <div class="relative flex justify-center items-center flex-col min-h-screen bg-center bg-dots-lighter bg-gray-900 selection:bg-red-500 selection:text-white">
-        <div class="flex justify-center pb-12">
+    <div class="relative flex justify-center items-center flex-col min-h-screen bg-center bg-[url('img/test.svg')] bg-gray-900 selection:bg-red-500 selection:text-white">
+        <div class="flex justify-center">
             <Link href="/">
-                <ApplicationLogo class="w-20 h-20 fill-current text-red-600" />
+                <ApplicationLogo class="w-40 h-40 fill-current text-red-600" />
             </Link>
         </div>
 

@@ -17,7 +17,11 @@ class PostFactory extends Factory
     public function definition(): array
     {
         return [
-            //
+            'category' => $this->faker->word(),
+            'title'=> $this->faker->unique()->realText($maxNbChars = 50),
+            'heading' => $this->faker->realText($maxNbChars = 100),
+            'body' => $this->faker->realText($maxNbChars = 1000),
+            'slug' => $this->faker->word()
         ];
     }
 }

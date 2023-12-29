@@ -55,7 +55,7 @@ defineProps({
             <div class="">
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-10">
                     <a
-                        href="https://laravel.com/docs"
+                        href="#"
                         class="scale-100 p-6 bg-gray-800/50 backdrop-blur-sm bg-gradient-to-bl from-gray-700/50 via-transparentring-1 ring-inset ring-white/5 rounded-lg shadow-2xl shadow-gray-500/20 dark:shadow-none flex motion-safe:hover:scale-[1.01] transition-all duration-250 focus:outline focus:outline-2 focus:outline-red-500"
                     >
                         <div>
@@ -102,7 +102,7 @@ defineProps({
                     </a>
 
                     <a
-                        href="https://laracasts.com"
+                        href="#"
                         class="scale-100 p-6 bg-gray-800/50 bg-gradient-to-bl backdrop-blur-sm from-gray-700/50 via-transparent ring-1 ring-inset ring-white/5 rounded-lg shadow-2xl shadow-gray-500/20 dark:shadow-none flex motion-safe:hover:scale-[1.01] transition-all duration-250 focus:outline focus:outline-2 focus:outline-red-500"
                     >
                         <div>
@@ -148,7 +148,7 @@ defineProps({
                     </a>
 
                     <a
-                        href="https://laravel-news.com"
+                        href="#"
                         class="scale-100 p-6 bg-gray-800/50 dark:bg-gradient-to-bl backdrop-blur-sm from-gray-700/50 via-transparent ring-1 ring-inset ring-white/5 rounded-lg shadow-2xl shadow-gray-500/20 dark:shadow-none flex motion-safe:hover:scale-[1.01] transition-all duration-250 focus:outline focus:outline-2 focus:outline-red-500"
                     >
                         <div>
@@ -221,7 +221,7 @@ defineProps({
                             <p class="mt-4 text-gray-400 text-sm leading-relaxed">
                                 Laravel's robust library of first-party tools and libraries, such as
                                 <a
-                                    href="https://forge.laravel.com"
+                                    href="#"
                                     class="underline  hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500"
                                     >Forge</a
                                 >,

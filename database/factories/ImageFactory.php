@@ -17,7 +17,11 @@ class ImageFactory extends Factory
     public function definition(): array
     {
         return [
-            //
+            'category'=>$this->faker->word(),
+            'name'=>$this->faker->word(),
+            'alt'=>$this->faker->word(),
+            'description'=>$this->faker->realText($maxNbChars = 50),
+            'image_path'=>$this->faker->imageUrl(640,480),
         ];
     }
 }

@@ -8,6 +8,7 @@ class HelloWorldController extends Controller
 {
     public function index()
     {
+        sleep(30);
         return "<h1>Hello World</h1>";
     }
 }

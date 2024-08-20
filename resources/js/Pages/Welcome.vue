@@ -159,7 +159,7 @@ const fetchRandomUserWithPosts = async (seconds) => {
             <div class="flex flex-col justify-between w-full gap-4">
               <div>
                 <h2 class="text-xl font-semibold text-white">
-                  Database Respose:
+                  Database Response:
                 </h2>
                 <!-- Conditional Rendering for Spinner -->
                 <template v-if="loading">

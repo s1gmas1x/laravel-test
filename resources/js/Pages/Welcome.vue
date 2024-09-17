@@ -44,7 +44,7 @@ onMounted(async () => {
 const fetchRandomUserWithPosts = async (seconds) => {
   // Show spinner while loading
   loading.value = true;
-
+  
   try {
     // Simulate server delay (remove this in production)
     await new Promise((resolve) => setTimeout(resolve, seconds * 1000));
@@ -85,14 +85,18 @@ const fetchRandomUserWithPosts = async (seconds) => {
     </div>
 
     <div class="p-6 mx-auto max-w-7xl lg:p-8">
+     
       <div class="flex justify-center">
+        
         <Link href="/">
+         
         <ApplicationLogo class="w-40 h-40 text-red-600" />
         </Link>
+        
       </div>
 
       <div class="">
-        <div class="grid grid-cols-1 gap-16 md:grid-cols-2 lg:gap-64">
+        <div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:gap-36">
           <div
             class="flex p-6 transition-all scale-100 rounded-lg shadow-2xl h-44 bg-gray-800/50 backdrop-blur-sm bg-gradient-to-bl h-fit from-gray-700/50 via-transparentring-1 ring-inset ring-white/5 shadow-gray-500/20 dark:shadow-none duration-250 focus:outline focus:outline-2 focus:outline-red-500">
             <div class="flex flex-col justify-between w-full gap-4">
@@ -151,7 +155,7 @@ const fetchRandomUserWithPosts = async (seconds) => {
                         stroke-dasharray="700 1400" stroke-linecap="round" stroke-dashoffset="0" />
                     </svg>
 
-                    <p>Loading...</p>
+                    <p class="">Loading...</p>
                   </div>
                 </template>
                 <template v-else>
@@ -184,7 +188,7 @@ const fetchRandomUserWithPosts = async (seconds) => {
         </div>
       </div>
 
-      <div class="flex justify-center px-6 mt-16 sm:items-center sm:justify-between"></div>
+      <div class="flex justify-center px-6 mt-8 sm:items-center sm:justify-between"></div>
 
       <div class="ml-4 text-sm text-center text-gray-400 sm:text-right sm:ml-0">
         Laravel v{{ laravelVersion }} (PHP v{{ phpVersion }})

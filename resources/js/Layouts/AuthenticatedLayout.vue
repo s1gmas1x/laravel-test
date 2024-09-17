@@ -12,7 +12,7 @@ const showingNavigationDropdown = ref(false);
 
 <template>
     <div class="relative flex justify-center items-center flex-col min-h-screen bg-center bg-[url('@/img/test.svg')] bg-gray-900 selection:bg-red-500 selection:text-white">
-        <div class="min-h-screen bg-gray-100">
+        <div class="min-h-screen bg-gray-700">
             <nav class="bg-white border-b border-gray-100">
                 <!-- Primary Navigation Menu -->
                 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
